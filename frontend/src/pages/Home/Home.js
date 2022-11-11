@@ -160,7 +160,7 @@ const Home = () => {
         <h3>We Recommend this for you to start.</h3>
 
         <Tabs defaultActiveKey="1" onTabClick={changetopic}>
-          <TabPane tab="Devlopement" key="1">
+          <TabPane tab="Development" key="1">
             <div className="Tab_Content">
               <h2>Become a Devloper</h2>
 

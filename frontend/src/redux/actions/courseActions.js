@@ -70,11 +70,7 @@ export const listMyCourses = () => async (dispatch, getState) => {
       },
     };
 
-    //const { data } = await axios.get(`/courses/Mycourses`, config);
-    const { data } = await axios.get(
-      `https://migrate-elite-default-rtdb.firebaseio.com/Contents`,
-      config
-    );
+    const { data } = await axios.get(`/courses/Mycourses`, config);
     console.log(data);
     dispatch({
       type: MY_COURSES_SUCCESS,
