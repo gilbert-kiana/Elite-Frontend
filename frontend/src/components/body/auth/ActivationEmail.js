@@ -8,7 +8,6 @@ import {
   showSuccessMsg,
 } from "../../utils/notification/Notification";
 
-//tokens hapa ndio zinatoka
 const ActivationEmail = () => {
   const { activation_token } = useParams();
   const [err, setErr] = useState("");
